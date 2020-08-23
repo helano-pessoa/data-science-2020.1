@@ -1,5 +1,5 @@
 docker run --rm -it \
 --network='host' \
--v `pwd`/notebooks:/data-science/notebooks \
-datascience:latest \
+-v `pwd`/notebooks:/trabalho3/notebooks \
+trabalho3:latest \
 jupyter notebook --allow-root

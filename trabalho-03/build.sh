@@ -1,1 +1,1 @@
-docker build -t datascience:latest .
+docker build -t trabalho3:latest .

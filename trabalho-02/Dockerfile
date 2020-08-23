@@ -5,7 +5,7 @@ ADD requirements.txt .
 RUN python -m pip install --upgrade pip
 RUN python -m pip install -r requirements.txt
 
-WORKDIR /data-science
-ADD . /data-science
+WORKDIR /trabalho2
+ADD . /trabalho2
 
 CMD ["/bin/bash"]
